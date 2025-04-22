@@ -1,0 +1,123 @@
+\doxysection{com.\+peluqueria.\+Gestor\+Citas Class Reference}
+\hypertarget{classcom_1_1peluqueria_1_1_gestor_citas}{}\label{classcom_1_1peluqueria_1_1_gestor_citas}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a85efd49ef0d77c3681de299fd8e11b8a}{añadir\+Cita}} (\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}} cita)
+\item 
+void \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a76e9f5ffcb4a576793dc0ef11b402194}{eliminar\+Cita}} (\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}} cita)
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}} $>$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_ab194cb6ab731dc709b7db2f9c4758354}{obtener\+Citas\+Por\+Dia}} (Local\+Date fecha)
+\item 
+void \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a3499786d0f3d1fb0787cc021ffaa0fd7}{registrar\+Cliente}} (\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} cliente)
+\item 
+void \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a9596d9bc6660a65e5ef1ce50c43fb9cb}{registrar\+Peluquero}} (\mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} peluquero)
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a60dd440a185cf01f0a786874cbeb2ded}{get\+Clientes}} ()
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} $>$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_gestor_citas_a384fc54d33a3fab6f221d31f05fa4320}{get\+Peluqueros}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase encargada de gestionar las citas de la peluquería Permite añadir, eliminar y consultar citas, así como registrar clientes y peluqueros 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a85efd49ef0d77c3681de299fd8e11b8a}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!añadirCita@{añadirCita}}
+\index{añadirCita@{añadirCita}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{añadirCita()}{añadirCita()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a85efd49ef0d77c3681de299fd8e11b8a} 
+boolean com.\+peluqueria.\+Gestor\+Citas.\+añadir\+Cita (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}}}]{cita}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Añade una nueva cita si está disponible
+
+
+\begin{DoxyParams}{Parameters}
+{\em cita} & \doxylink{classcom_1_1peluqueria_1_1_cita}{Cita} a añadir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si la cita fue añadida correctamente, false en caso contrario 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a76e9f5ffcb4a576793dc0ef11b402194}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!eliminarCita@{eliminarCita}}
+\index{eliminarCita@{eliminarCita}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{eliminarCita()}{eliminarCita()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a76e9f5ffcb4a576793dc0ef11b402194} 
+void com.\+peluqueria.\+Gestor\+Citas.\+eliminar\+Cita (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}}}]{cita}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Elimina una cita existente
+
+
+\begin{DoxyParams}{Parameters}
+{\em cita} & \doxylink{classcom_1_1peluqueria_1_1_cita}{Cita} a eliminar \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a60dd440a185cf01f0a786874cbeb2ded}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!getClientes@{getClientes}}
+\index{getClientes@{getClientes}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{getClientes()}{getClientes()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a60dd440a185cf01f0a786874cbeb2ded} 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} $>$ com.\+peluqueria.\+Gestor\+Citas.\+get\+Clientes (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene la lista de clientes registrados
+
+\begin{DoxyReturn}{Returns}
+Lista de clientes 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a384fc54d33a3fab6f221d31f05fa4320}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!getPeluqueros@{getPeluqueros}}
+\index{getPeluqueros@{getPeluqueros}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{getPeluqueros()}{getPeluqueros()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a384fc54d33a3fab6f221d31f05fa4320} 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} $>$ com.\+peluqueria.\+Gestor\+Citas.\+get\+Peluqueros (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene la lista de peluqueros registrados
+
+\begin{DoxyReturn}{Returns}
+Lista de peluqueros 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_ab194cb6ab731dc709b7db2f9c4758354}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!obtenerCitasPorDia@{obtenerCitasPorDia}}
+\index{obtenerCitasPorDia@{obtenerCitasPorDia}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{obtenerCitasPorDia()}{obtenerCitasPorDia()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_ab194cb6ab731dc709b7db2f9c4758354} 
+List$<$ \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita}{Cita}} $>$ com.\+peluqueria.\+Gestor\+Citas.\+obtener\+Citas\+Por\+Dia (\begin{DoxyParamCaption}\item[{Local\+Date}]{fecha}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene todas las citas programadas para un día específico
+
+
+\begin{DoxyParams}{Parameters}
+{\em fecha} & Fecha para la cual se desean obtener las citas \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista de citas para ese día 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a3499786d0f3d1fb0787cc021ffaa0fd7}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!registrarCliente@{registrarCliente}}
+\index{registrarCliente@{registrarCliente}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{registrarCliente()}{registrarCliente()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a3499786d0f3d1fb0787cc021ffaa0fd7} 
+void com.\+peluqueria.\+Gestor\+Citas.\+registrar\+Cliente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}}}]{cliente}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Registra un nuevo cliente en el sistema
+
+
+\begin{DoxyParams}{Parameters}
+{\em cliente} & \doxylink{classcom_1_1peluqueria_1_1_cliente}{Cliente} a registrar \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1peluqueria_1_1_gestor_citas_a9596d9bc6660a65e5ef1ce50c43fb9cb}\index{com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}!registrarPeluquero@{registrarPeluquero}}
+\index{registrarPeluquero@{registrarPeluquero}!com.peluqueria.GestorCitas@{com.peluqueria.GestorCitas}}
+\doxysubsubsection{\texorpdfstring{registrarPeluquero()}{registrarPeluquero()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_gestor_citas_a9596d9bc6660a65e5ef1ce50c43fb9cb} 
+void com.\+peluqueria.\+Gestor\+Citas.\+registrar\+Peluquero (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}}}]{peluquero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Registra un nuevo peluquero en el sistema
+
+
+\begin{DoxyParams}{Parameters}
+{\em peluquero} & \doxylink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero} a registrar \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/peluqueria/Gestor\+Citas.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,108 @@
+\doxysection{com.\+peluqueria.\+Cita Class Reference}
+\hypertarget{classcom_1_1peluqueria_1_1_cita}{}\label{classcom_1_1peluqueria_1_1_cita}\index{com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_a5998da933a616f94c5d5d6e6e99e3ae2}{Cita}} (Local\+Date fecha, Local\+Time hora, \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} cliente, \mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} peluquero)
+\item 
+boolean \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_a99bea9e2f75681cd0f3b3a8b3f4838ad}{verificar\+Disponibilidad}} ()
+\item 
+Local\+Date \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_a0054c2e0e4cb06f46128482269ae7416}{get\+Fecha}} ()
+\item 
+Local\+Time \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_a1552fffb675743da30ce6d7050471b82}{get\+Hora}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_ad9c261ef32d36c107cfb35d962825044}{get\+Cliente}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} \mbox{\hyperlink{classcom_1_1peluqueria_1_1_cita_a22fa8017b4ca87763e032cb38e4b01e0}{get\+Peluquero}} ()
+\item 
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_acc924ac876ac8b3e1beef8d80f2d1ed3}\label{classcom_1_1peluqueria_1_1_cita_acc924ac876ac8b3e1beef8d80f2d1ed3} 
+String {\bfseries to\+String} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa una cita agendada en la peluquería Contiene información sobre la fecha, hora, cliente y peluquero asignado 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_a5998da933a616f94c5d5d6e6e99e3ae2}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!Cita@{Cita}}
+\index{Cita@{Cita}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{Cita()}{Cita()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_a5998da933a616f94c5d5d6e6e99e3ae2} 
+com.\+peluqueria.\+Cita.\+Cita (\begin{DoxyParamCaption}\item[{Local\+Date}]{fecha}{, }\item[{Local\+Time}]{hora}{, }\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}}}]{cliente}{, }\item[{\mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}}}]{peluquero}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Crea una nueva cita
+
+
+\begin{DoxyParams}{Parameters}
+{\em fecha} & Fecha de la cita \\
+\hline
+{\em hora} & Hora de la cita \\
+\hline
+{\em cliente} & \doxylink{classcom_1_1peluqueria_1_1_cliente}{Cliente} que solicita la cita \\
+\hline
+{\em peluquero} & \doxylink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero} asignado a la cita \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_ad9c261ef32d36c107cfb35d962825044}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!getCliente@{getCliente}}
+\index{getCliente@{getCliente}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{getCliente()}{getCliente()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_ad9c261ef32d36c107cfb35d962825044} 
+\mbox{\hyperlink{classcom_1_1peluqueria_1_1_cliente}{Cliente}} com.\+peluqueria.\+Cita.\+get\+Cliente (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene el cliente que reservó la cita
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classcom_1_1peluqueria_1_1_cliente}{Cliente} de la cita 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_a0054c2e0e4cb06f46128482269ae7416}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!getFecha@{getFecha}}
+\index{getFecha@{getFecha}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{getFecha()}{getFecha()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_a0054c2e0e4cb06f46128482269ae7416} 
+Local\+Date com.\+peluqueria.\+Cita.\+get\+Fecha (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene la fecha de la cita
+
+\begin{DoxyReturn}{Returns}
+Fecha de la cita 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_a1552fffb675743da30ce6d7050471b82}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!getHora@{getHora}}
+\index{getHora@{getHora}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{getHora()}{getHora()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_a1552fffb675743da30ce6d7050471b82} 
+Local\+Time com.\+peluqueria.\+Cita.\+get\+Hora (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene la hora de la cita
+
+\begin{DoxyReturn}{Returns}
+Hora de la cita 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_a22fa8017b4ca87763e032cb38e4b01e0}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!getPeluquero@{getPeluquero}}
+\index{getPeluquero@{getPeluquero}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{getPeluquero()}{getPeluquero()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_a22fa8017b4ca87763e032cb38e4b01e0} 
+\mbox{\hyperlink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero}} com.\+peluqueria.\+Cita.\+get\+Peluquero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene el peluquero asignado a la cita
+
+\begin{DoxyReturn}{Returns}
+\doxylink{classcom_1_1peluqueria_1_1_peluquero}{Peluquero} de la cita 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1peluqueria_1_1_cita_a99bea9e2f75681cd0f3b3a8b3f4838ad}\index{com.peluqueria.Cita@{com.peluqueria.Cita}!verificarDisponibilidad@{verificarDisponibilidad}}
+\index{verificarDisponibilidad@{verificarDisponibilidad}!com.peluqueria.Cita@{com.peluqueria.Cita}}
+\doxysubsubsection{\texorpdfstring{verificarDisponibilidad()}{verificarDisponibilidad()}}
+{\footnotesize\ttfamily \label{classcom_1_1peluqueria_1_1_cita_a99bea9e2f75681cd0f3b3a8b3f4838ad} 
+boolean com.\+peluqueria.\+Cita.\+verificar\+Disponibilidad (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Verifica si la cita está disponible actualmente metodo provisional que siempre devuelve true
+
+\begin{DoxyReturn}{Returns}
+true si la cita está disponible, false en caso contrario 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/peluqueria/Cita.\+java\end{DoxyCompactItemize}

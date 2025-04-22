@@ -1,0 +1,11 @@
+digraph G {
+    rankdir=LR;
+    node [shape=box];
+
+    Cliente [label="Cliente\n+id: int\n+nombre: String\n+telefono: String"];
+    Peluquero [label="Peluquero\n+id: int\n+nombre: String\n+telefono: String"];
+    Cita [label="Cita\n+fecha: LocalDate\n+hora: LocalTime"];
+
+    Cliente -> Cita;
+    Peluquero -> Cita;
+}
