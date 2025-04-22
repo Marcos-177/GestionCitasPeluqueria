@@ -1,0 +1,5 @@
+com\peluqueria\TestGestorCitas.class
+com\peluqueria\RunCucumberTest.class
+com\peluqueria\steps\GestorCitasSteps.class
+com\peluqueria\GestorCitasMockitoTest.class
+com\peluqueria\steps\BuscarCitasSteps.class

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.peluqueria.GestorCitasMockitoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.872 s <<< FAILURE! -- in com.peluqueria.GestorCitasMockitoTest
+com.peluqueria.GestorCitasMockitoTest.testAñadirCitaConMock -- Time elapsed: 0.848 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.time.LocalDate.equals(Object)" because the return value of "com.peluqueria.Cita.getFecha()" is null
+	at com.peluqueria.GestorCitas.obtenerCitasPorDia(GestorCitas.java:48)
+	at com.peluqueria.GestorCitasMockitoTest.testAñadirCitaConMock(GestorCitasMockitoTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
